@@ -1,4 +1,5 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Navbar';
 import Puppies from './pages/Puppies';
 import Pricing from './pages/Pricing';
