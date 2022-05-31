@@ -49,3 +49,17 @@ nav ul{
 .nav li:hover{
   background-color: #777;
 }
+
+.puppy{
+  align-items: center;
+  padding: .25rem;
+}
+
+.puppyContainer{
+  align-items: center;
+  padding: .25rem;
+}
+
+.puppyCard{
+  margin-top: 2rem;
+}
