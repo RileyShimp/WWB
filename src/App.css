@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+.App{
+  background-color: rgb(255, 255, 255);
+}
+
 body {
   margin: 0;
 }
@@ -62,4 +66,9 @@ nav ul{
 
 .puppyCard{
   margin-top: 2rem;
+  box-shadow: 5px 8px #0000007f;
+}
+
+.puppyCard:hover{
+  box-shadow: 6px 10px #0000009c;
 }
