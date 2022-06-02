@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './Navbar';
+import MainNavbar from './MainNavbar';
 import Puppies from './pages/Puppies';
 import Studs from './pages/Studs';
 import Home from './pages/Home';
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <>
-      <Navbar/>
+      <MainNavbar/>
       <div className='container'>
         <Routes>
           <Route path='/' element={<Home/>}/>
