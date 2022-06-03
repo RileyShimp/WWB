@@ -66,11 +66,10 @@ nav ul{
 
 .puppyCard{
   margin-top: 2rem;
-  box-shadow: 5px 8px #0000007f;
 }
 
 .puppyCard:hover{
-  box-shadow: 6px 10px #0000009c;
+  transform: scale(1.02);
 }
 
 .EmailForm {
