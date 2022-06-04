@@ -1,3 +1,9 @@
+import CarouselHeader from "../components/CarouselHeader";
+
 export default function Home (){
-  return <h1>Home</h1>
+  return(
+    <div>
+    <CarouselHeader/>
+    </div>
+  )
 }
