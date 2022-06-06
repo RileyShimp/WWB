@@ -6,16 +6,16 @@ import image3 from '../assets/img/headerPhoto3.jpg'
 export default function CarouselHeader() {
   return (
     <div className='Carousel'>
-      <Carousel>
+      <Carousel  style={{ color: '#14213d', fontWeight: 400}}>
         <Carousel.Item>
           <img
             className='d-block w-100'
             src={image1}
             alt='First slide'
           />
-          <Carousel.Caption>
+          <Carousel.Caption style={{ color: '#14213d'}}>
             <h3>Wordwide Bullies</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <p>AKC registered puppies and studs</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -25,9 +25,9 @@ export default function CarouselHeader() {
             alt='Second slide'
           />
 
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <Carousel.Caption style={{ top: '0'}}>
+            <h3>We make it easy!</h3>
+            <p>Check out our available puppies. Send us an email if you interested in adopting! </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -37,9 +37,9 @@ export default function CarouselHeader() {
             alt='Third slide'
           />
 
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <Carousel.Caption style={{ color: '#14213d'}}>
+            <h3>Studs Available</h3>
+            <p>We have a variety of studs available, check the studs page for more info, and send us an email if intersted!</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

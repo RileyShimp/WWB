@@ -1,28 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@600&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@600&family=Poppins:wght@200;400;700&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
-.App{
-  background-color: rgb(255, 255, 255);
+.App {
   font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  background-color: #8ecae6;
+  min-height: 1000px;
+  padding-bottom: 50px;
+}
 
+h1 {
+  color: #14213d;
+  padding-top: 3rem;
 }
 
 body {
   margin: 0px;
 }
 
-.container{
+.container {
   text-align: center;
 }
 
-.site-title{
+.site-title {
   font-size: 2rem;
 }
 
-nav ul{
+nav ul {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -30,40 +37,38 @@ nav ul{
   gap: 1rem;
 }
 
-.nav a{
+.nav a {
   color: inherit;
   text-decoration: none;
   height: 100%;
   display: flex;
   align-items: center;
-  padding: .25rem;
+  padding: 0.25rem;
 }
 
-
-
-.puppy{
+.puppy {
   align-items: center;
-  padding: .25rem;
+  padding: 0.25rem;
 }
 
-.puppies{
+.puppies {
   text-align: center;
 }
 
-.puppyContainer{
+.puppyContainer {
   align-items: center;
-  padding: .25rem;
+  padding: 0.25rem;
 }
 
-.puppyCard{
+.puppyCard {
   margin-top: 2rem;
 }
 
-.studs{
+.studs {
   text-align: center;
 }
 
-.puppyCard:hover{
+.puppyCard:hover {
   transform: scale(1.02);
 }
 
@@ -71,8 +76,7 @@ nav ul{
   max-width: 85%;
   padding-left: 20%;
   text-align: center;
+  padding-bottom: 200px;
+  padding-top: 100px;
 }
 
-h1{
-  padding-top: 3rem;
-}

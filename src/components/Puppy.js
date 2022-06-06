@@ -57,7 +57,7 @@ export default function Puppy() {
         <Row>
           {puppyData.map((puppy) => (
             <Col sm>
-              <Card className='puppyCard' style={{ width: '15rem' }}>
+              <Card className='puppyCard' style={{ width: '15rem', backgroundColor: '#'}}>
                 <Card.Img variant='top' src={image} />
                 <Card.Body>
                   <Card.Title>{puppy.name}</Card.Title>
