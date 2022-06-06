@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@600&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@600&family=Poppins:wght@200&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -38,13 +39,7 @@ nav ul{
   padding: .25rem;
 }
 
-.nav li.active {
-  background-color: #555;
-}
 
-.nav li:hover{
-  background-color: #777;
-}
 
 .puppy{
   align-items: center;
@@ -81,7 +76,3 @@ nav ul{
 h1{
   padding-top: 3rem;
 }
-/* 
-.Carousel {
-  
-} */
