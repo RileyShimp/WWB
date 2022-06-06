@@ -1,9 +1,15 @@
-import CarouselHeader from "../components/CarouselHeader";
+import CarouselHeader from '../components/CarouselHeader'
+import Contact from './Contact'
+import Puppies from './Puppies'
+import Studs from './Studs'
 
-export default function Home (){
-  return(
+export default function Home() {
+  return (
     <div>
-    <CarouselHeader/>
+      <CarouselHeader />
+        <Puppies />
+        <Studs />
+        <Contact />
     </div>
   )
 }

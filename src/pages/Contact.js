@@ -21,7 +21,7 @@ export default function Contact() {
 
   return (
     <div className='EmailForm'>
-      <h1>Contact Us</h1>
+      <h1>Email Us!</h1>
       <Form ref={form} onSubmit={sendEmail}>
         <Form.Label>Name</Form.Label>
         <Form.Control type='text' name='user_name' />
