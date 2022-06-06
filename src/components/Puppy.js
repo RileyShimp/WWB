@@ -39,7 +39,7 @@ export default function Puppy() {
     },
     {
       name: 'Peanut',
-      sex: 'white tri',
+      sex: 'Male',
       color: 'brown',
       price: '$4500',
     },
@@ -57,7 +57,7 @@ export default function Puppy() {
         <Row>
           {puppyData.map((puppy) => (
             <Col sm>
-              <Card className='puppyCard' style={{ width: '15rem', backgroundColor: '#'}}>
+              <Card bg='dark' key='dark' text='white' className='puppyCard' style={{ width: '15rem'}}>
                 <Card.Img variant='top' src={image} />
                 <Card.Body>
                   <Card.Title>{puppy.name}</Card.Title>
@@ -67,7 +67,7 @@ export default function Puppy() {
                     description of the puppy could go.
                   </Card.Text>
                   <Card.Subtitle className='mb-2 text-muted'>Price: {puppy.price}</Card.Subtitle>
-                  <Button variant='primary'>Email for purchase info</Button>
+                  <Button variant="primary">Email for purchase info</Button>
                 </Card.Body>
               </Card>
             </Col>

@@ -27,7 +27,7 @@ export default function StudList() {
         <Row>
           {puppyData.map((puppy) => (
             <Col sm>
-              <Card className='puppyCard' style={{ width: '18rem' }}>
+              <Card bg='dark' key='dark' text='white' className='puppyCard' style={{ width: '18rem' }}>
                 <Card.Img variant='top' src={image} />
                 <Card.Body>
                   <Card.Title>{puppy.name}</Card.Title>

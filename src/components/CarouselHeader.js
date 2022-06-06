@@ -39,7 +39,7 @@ export default function CarouselHeader() {
 
           <Carousel.Caption style={{ color: '#14213d'}}>
             <h3>Studs Available</h3>
-            <p>We have a variety of studs available, check the studs page for more info, and send us an email if intersted!</p>
+            <p>We have a variety of studs available, check the studs page for more info!</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
