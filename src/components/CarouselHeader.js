@@ -13,7 +13,7 @@ export default function CarouselHeader() {
             src={image1}
             alt='First slide'
           />
-          <Carousel.Caption style={{ color: '#14213d'}}>
+          <Carousel.Caption style={{ top: '0', fontWeight:'700' }}>
             <h3>Wordwide Bullies</h3>
             <p>AKC registered puppies and studs</p>
           </Carousel.Caption>
@@ -25,7 +25,7 @@ export default function CarouselHeader() {
             alt='Second slide'
           />
 
-          <Carousel.Caption style={{ top: '0'}}>
+          <Carousel.Caption style={{ top: '0', fontWeight:'700'}}>
             <h3>We make it easy!</h3>
             <p>Check out our available puppies. Send us an email if you interested in adopting! </p>
           </Carousel.Caption>
@@ -37,7 +37,7 @@ export default function CarouselHeader() {
             alt='Third slide'
           />
 
-          <Carousel.Caption style={{ color: '#14213d'}}>
+          <Carousel.Caption style={{ top: '0', fontWeight:'700' }}>
             <h3>Studs Available</h3>
             <p>We have a variety of studs available, check the studs page for more info!</p>
           </Carousel.Caption>
