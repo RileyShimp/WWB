@@ -42,12 +42,6 @@ export default function Puppy() {
       sex: 'Male',
       color: 'brown',
       price: '$4500',
-    },
-    {
-      name: 'Nala',
-      sex: 'Female',
-      color: 'black',
-      price: '$5500',
     }
   ]
 
