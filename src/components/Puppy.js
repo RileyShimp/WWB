@@ -1,9 +1,10 @@
-import Card from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/Button'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import image from '../assets/img/FrenchiePuppy1.jpg'
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import image from '../assets/img/FrenchiePuppy1.jpg';
+import EmailModal from './EmailModal';
 
 export default function Puppy() {
   let puppyData = [
@@ -61,7 +62,7 @@ export default function Puppy() {
                     description of the puppy could go.
                   </Card.Text>
                   <Card.Subtitle className='mb-2 text-muted'>Price: {puppy.price}</Card.Subtitle>
-                  <Button variant="primary">Email for purchase info</Button>
+                  <EmailModal/>
                 </Card.Body>
               </Card>
             </Col>

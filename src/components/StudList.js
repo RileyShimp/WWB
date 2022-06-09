@@ -1,5 +1,5 @@
 import Card from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/Button'
+import EmailModal from './EmailModal'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -27,7 +27,7 @@ export default function StudList() {
         <Row>
           {puppyData.map((puppy) => (
             <Col sm>
-              <Card bg='dark' key='dark' text='white' className='puppyCard' style={{ width: '18rem' }}>
+              <Card bg='dark' key='dark' text='white' className='puppyCard' style={{ width: '15rem' }}>
                 <Card.Img variant='top' src={image} />
                 <Card.Body>
                   <Card.Title>{puppy.name}</Card.Title>
@@ -37,7 +37,7 @@ export default function StudList() {
                     description of the puppy could go.
                   </Card.Text>
                   <Card.Subtitle className='mb-2 text-muted'>Price: {puppy.price}</Card.Subtitle>
-                  <Button variant='primary'>Email for purchase info</Button>
+                  <EmailModal/>
                 </Card.Body>
               </Card>
             </Col>

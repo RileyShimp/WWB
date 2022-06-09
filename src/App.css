@@ -52,7 +52,13 @@ h1 {
 }
 
 .EmailForm {
-  max-width: 80%;
+  margin : 0 auto;
+  text-align: center;
+}
+
+.Contact {
+  width: 80%;
+  max-width: 600px;
   margin : 0 auto;
   text-align: center;
   padding-bottom: 200px;
