@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@600&family=Poppins:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&family=Poppins:wght@200;400;700&display=swap');
+
 
 * {
   box-sizing: border-box;
@@ -14,37 +15,13 @@
 
 h1 {
   color: #14213d;
-  padding-top: 5rem;
-  padding-bottom: 3rem;
-}
-
-body {
-  margin: 0px;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  font-family: 'Oswald', sans-serif;
 }
 
 .container {
   text-align: center;
-}
-
-.site-title {
-  font-size: 2rem;
-}
-
-nav ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-}
-
-.nav a {
-  color: inherit;
-  text-decoration: none;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  padding: 0.25rem;
 }
 
 .puppy {
@@ -75,10 +52,9 @@ nav ul {
 }
 
 .EmailForm {
-  max-width: 85%;
-  padding-left: 20%;
+  max-width: 80%;
+  margin : 0 auto;
   text-align: center;
   padding-bottom: 200px;
-  padding-top: 100px;
 }
 
