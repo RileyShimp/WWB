@@ -1,6 +1,5 @@
 import emailjs from '@emailjs/browser'
 import Form from 'react-bootstrap/Form'
-import Button from 'react-bootstrap/Button'
 import { useRef } from 'react'
 import ConfirmSendModal from './ConfirmSendModal'
 
@@ -10,7 +9,7 @@ export default function EmailForm() {
   const sendEmail = (e) => {
     e.preventDefault()
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY').then(
+    emailjs.sendForm('service_71msj87', 'template_mvjiql8', form.current, 'qNFBcTeC0mXDMBAU_').then(
       (result) => {
         console.log(result.text)
       },
@@ -29,7 +28,7 @@ export default function EmailForm() {
         <Form.Control type='email' placeholder='name@example.com' name='user_email' />
         <Form.Label>Message</Form.Label>
         <Form.Control as='textarea' rows={5} name='message' />
-        <ConfirmSendModal/>
+        <ConfirmSendModal />
       </Form>
     </div>
   )
