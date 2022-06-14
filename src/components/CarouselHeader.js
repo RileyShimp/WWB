@@ -6,14 +6,14 @@ import image3 from '../assets/img/headerPhoto3.jpg'
 export default function CarouselHeader() {
   return (
     <div className='Carousel'>
-      <Carousel  style={{ color: '#14213d', fontWeight: 400}}>
+      <Carousel  style={{ color: '#14213d', fontWeight: '700', maxWidth: 1300, margin: '0 auto'}}>
         <Carousel.Item>
           <img
             className='d-block w-100'
             src={image1}
             alt='First slide'
           />
-          <Carousel.Caption style={{ top: '0', fontWeight:'700' }}>
+          <Carousel.Caption style={{ fontWeight:'700', color:'black' }}>
             <h3>Wordwide Bullies</h3>
             <p>AKC registered puppies and studs</p>
           </Carousel.Caption>
