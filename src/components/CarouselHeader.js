@@ -30,8 +30,8 @@ export default function CarouselHeader() {
               top: '0',
               fontWeight: '700',
               fontSize: '4vw',
-              color: '#8ecae6',
-              textShadow: '2px 2px #023047',
+              color: '#ffd60a',
+              textShadow: '3px 3px #023047',
             }}>
             <h3 style={{ fontWeight: '700', fontSize: '6vw' }}>We Got Puppies!</h3>
             <p>Contact us if you interested in adopting! </p>
@@ -43,8 +43,8 @@ export default function CarouselHeader() {
                 style={{
                   fontWeight: '700',
                   fontSize: '4vw',
-                  color: '#8ecae6',
-                  textShadow: '2px 2px #023047',
+                  color: '#ffd60a',
+                  textShadow: '3px 3px #023047',
                 }}>
                 <h3 style={{ fontWeight: '700', fontSize: '7vw' }}>Wordwide Bullies</h3>
                 <p>AKC registered puppies and studs</p>
