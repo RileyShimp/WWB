@@ -8,7 +8,7 @@ export default function MainNavbar() {
   return (
       <Navbar collapseOnSelect expand='sm' bg='dark' variant='dark'>
         <Container>
-          <LinkContainer to='/'>
+        <LinkContainer to='/'>
             <Navbar.Brand><img alt='' src={NavLogo}  width='140vw' className='d-inline-block align-top' /></Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />

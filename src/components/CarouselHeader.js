@@ -2,6 +2,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import image1 from '../assets/img/headerPhoto1.jpeg'
 import image2 from '../assets/img/headerPhoto2.jpeg'
 import image3 from '../assets/img/headerPhoto3.jpeg'
+import NavLogo from '../assets/img/NavLogo1.png'
 
 export default function CarouselHeader() {
   return (
@@ -18,8 +19,7 @@ export default function CarouselHeader() {
                     color: '#8ecae6',
                     textShadow: '2px 2px #023047',
                   }}>
-                  <h3 style={{ fontWeight: '700', fontSize: '6vw' }}>We Got Studs!</h3>
-                  <p>a variety of studs available</p>
+                  <img style={{ width: '40vw', maxWidth: '800px' }} alt='Third slide' src={NavLogo} />
                 </Carousel.Caption>
               </Carousel.Item>
         <Carousel.Item>
