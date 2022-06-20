@@ -15,7 +15,7 @@ export default function Studs() {
             marginBottom: '0',
           }}>
           <img style={{ width: '16vw', maxWidth: '800px' }} alt='Third slide' src={WWBLogo2} />
-          Meet the Studs!
+          Available Studs!
           <img style={{ width: '23vw', maxWidth: '800px' }} alt='Third slide' src={WWBLogo3} />
         </h1>
       </div>

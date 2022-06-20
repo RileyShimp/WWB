@@ -7,46 +7,22 @@ import EmailModal from './EmailModal';
 
 export default function Puppy() {
   let puppyData = [
-    {
-      name: 'Acorn',
-      sex: 'Male',
-      color: 'Blue',
-      price: '$6500',
-    },
-    {
-      name: 'Bella',
-      sex: 'Female',
-      color: 'Platinum',
-      price: '$8500',
-    },
-    {
-      name: 'Bubba',
-      sex: 'Male',
-      color: 'brown',
-      price: '$4500',
-    },
-    {
-      name: 'Max',
-      sex: 'Male',
-      color: 'brown',
-      price: '$5500',
-    },
-    {
-      name: 'Poncho',
-      sex: 'Male',
-      color: 'blue',
-      price: '$7500',
-    },
-    {
-      name: 'Peanut',
-      sex: 'Male',
-      color: 'brown',
-      price: '$4500',
-    }
+    // {
+    //   name: 'Acorn',
+    //   sex: 'Male',
+    //   color: 'Blue',
+    //   price: '$6500',
+    // }
   ]
 
   return (
     <div className='puppy'>
+      <h1>
+        Puppies from Milo coming soon...
+      </h1>
+      <h3>
+        Contact for more info
+      </h3>
       <Container className='puppyContainer'>
         <Row>
           {puppyData.map((puppy) => (
@@ -57,8 +33,7 @@ export default function Puppy() {
                   <Card.Title>{puppy.name}</Card.Title>
                   <Card.Subtitle className='mb-2 text-muted'>{puppy.sex}</Card.Subtitle>
                   <Card.Text>
-                    {puppy.name} is a {puppy.color} frenchie! Some quick example text where a short
-                    description of the puppy could go.
+                    {puppy.color}
                   </Card.Text>
                   <Card.Subtitle className='mb-2 text-muted'>Price: {puppy.price}</Card.Subtitle>
                   <EmailModal/>
