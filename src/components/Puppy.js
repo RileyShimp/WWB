@@ -20,9 +20,6 @@ export default function Puppy() {
       <h1>
         Puppies from Milo coming soon...
       </h1>
-      <h3>
-        Contact for more info
-      </h3>
       <Container className='puppyContainer'>
         <Row>
           {puppyData.map((puppy) => (
