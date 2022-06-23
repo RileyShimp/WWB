@@ -32,12 +32,12 @@ export default function EmailForm() {
   return (
     <div className='EmailForm'>
       <Form ref={form} onSubmit={sendEmail}>
-        <Form.Label>Name</Form.Label>
+        <Form.Label>Your Name</Form.Label>
         <Form.Control required type='text' name='user_name' />
-        <Form.Label>Email</Form.Label>
+        <Form.Label>Your Email</Form.Label>
         <Form.Control type='email' placeholder='name@example.com' name='user_email' />
         <Form.Label>Message</Form.Label>
-        <Form.Control as='textarea' rows={5} name='message' />
+        <Form.Control as='textarea' placeholder='include a phone number if you prefer us to call you back!' rows={5} name='message' />
         <Button
         variant='primary'
         value="Send"
