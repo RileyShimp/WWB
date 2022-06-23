@@ -3,7 +3,6 @@ import EmailModal from './EmailModal'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import image from '../assets/img/FrenchiePuppy1.jpg'
 
 export default function StudList() {
   let puppyData = [
@@ -63,7 +62,7 @@ export default function StudList() {
                 text='white'
                 className='puppyCard'
                 style={{ width: '15rem' }}>
-                <Card.Img variant='top' src={image} />
+                <Card.Img variant='top' src={require(`../assets/img/Stud_${puppy.name}.jpeg`)} />
                 <Card.Body>
                   <Card.Title>{puppy.name}</Card.Title>
                   <Card.Subtitle className='mb-2 text-muted'>{puppy.sex}</Card.Subtitle>
