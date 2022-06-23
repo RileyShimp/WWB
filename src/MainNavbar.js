@@ -15,13 +15,13 @@ export default function MainNavbar() {
           <Navbar.Collapse id='responsive-navbar-nav'>
             <Nav className='me-auto'>
               <LinkContainer to='/puppies'>
-                <Nav.Link>Puppies</Nav.Link>
+                <Nav.Link>Available Puppies</Nav.Link>
               </LinkContainer>
               <LinkContainer to='/studs'>
-                <Nav.Link>Studs</Nav.Link>
+                <Nav.Link>Available Studs</Nav.Link>
               </LinkContainer>
               <LinkContainer to='/contact'>
-                <Nav.Link>Contact</Nav.Link>
+                <Nav.Link>Contact Us</Nav.Link>
               </LinkContainer>
             </Nav>
           </Navbar.Collapse>
