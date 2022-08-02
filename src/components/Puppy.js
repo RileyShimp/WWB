@@ -23,16 +23,16 @@ export default function Puppy() {
   return (
     <div className='puppy'>
       <div>
-      <video src={video1} width="300" height="600" autoPlay={true} loop muted />
+      <video src={video1} width="300" height="600" controls="controls" autoPlay={false} loop muted />
       </div>
       <div>
-      <video src={video2} width="300" height="600" autoPlay={true} loop muted />
+      <video src={video2} width="300" height="600" controls="controls" autoPlay={false} loop muted />
       </div>
       <div>
-      <video src={video3} width="300" height="600" autoPlay={true} loop muted />
+      <video src={video3} width="300" height="600" controls="controls" autoPlay={false} loop muted />
       </div>
       <div>
-      <video src={video4} width="300" height="600" autoPlay={true} loop muted />
+      <video src={video4} width="300" height="600" controls="controls" autoPlay={false} loop muted />
       </div>
       <Container className='puppyContainer'>
         <Row>
