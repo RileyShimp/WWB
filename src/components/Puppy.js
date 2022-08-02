@@ -5,6 +5,11 @@ import Col from 'react-bootstrap/Col';
 import image from '../assets/img/FrenchiePuppy1.jpg';
 import EmailModal from './EmailModal';
 
+import video1 from '../assets/video/Video1.MP4';
+import video2 from '../assets/video/Video2.MP4';
+import video3 from '../assets/video/Video3.MP4';
+import video4 from '../assets/video/Video4.MP4';
+
 export default function Puppy() {
   let puppyData = [
     // {
@@ -17,9 +22,18 @@ export default function Puppy() {
 
   return (
     <div className='puppy'>
-      <h1>
-        Puppies from Milo coming soon...
-      </h1>
+      <div>
+      <video src={video1} width="300" height="600" autoPlay={true} loop muted />
+      </div>
+      <div>
+      <video src={video2} width="300" height="600" autoPlay={true} loop muted />
+      </div>
+      <div>
+      <video src={video3} width="300" height="600" autoPlay={true} loop muted />
+      </div>
+      <div>
+      <video src={video4} width="300" height="600" autoPlay={true} loop muted />
+      </div>
       <Container className='puppyContainer'>
         <Row>
           {puppyData.map((puppy) => (
