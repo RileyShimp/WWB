@@ -11,7 +11,7 @@ import poster2 from '../../assets/img/IMG_8081.jpg'
 import poster1 from '../../assets/img/IMG_8082.jpg'
 import poster4 from '../../assets/img/IMG_8083.jpg'
 import poster3 from '../../assets/img/IMG_8084.jpg'
-import poster5 from '../../assets/img/upcomingPuppies.jpg'
+import poster5 from '../../assets/img/upcomingPuppies1.jpg'
 
 const PuppyVideos = () => {
   return (
