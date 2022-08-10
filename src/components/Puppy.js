@@ -9,10 +9,10 @@ import video1 from '../assets/video/Video1.MP4'
 import video2 from '../assets/video/Video2.MP4'
 import video3 from '../assets/video/Video3.MP4'
 import video4 from '../assets/video/Video4.MP4'
-import poster1 from '../assets/img/IMG_7970.jpg'
-import poster2 from '../assets/img/IMG_7971.jpg'
-import poster3 from '../assets/img/IMG_7972.jpg'
-import poster4 from '../assets/img/IMG_7973.jpg'
+import poster2 from '../assets/img/IMG_8081.jpg'
+import poster1 from '../assets/img/IMG_8082.jpg'
+import poster4 from '../assets/img/IMG_8083.jpg'
+import poster3 from '../assets/img/IMG_8084.jpg'
 
 
 export default function Puppy() {
