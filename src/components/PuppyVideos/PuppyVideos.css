@@ -1,0 +1,57 @@
+
+.video_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.video_container > div {
+  background: #353533;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 2px solid transparent;
+  transition: all 400ms ease;
+  margin: 0 3rem;
+}
+
+.video_container > div:hover {
+  background: #353533a9;
+  border-color: #353533;
+  cursor: default;
+}
+
+.puppyVideo h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: whitesmoke
+}
+
+.email_button{
+  padding-top: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .video_container {
+    grid-template-columns: 1fr;
+  }
+
+  .video_container > div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .video_container {
+    gap: 2rem;
+    padding: 1rem
+  }
+
+  .video_container > div {
+    width: 100%;
+    padding: 1rem 1rem;
+    margin: 0 auto;
+  }
+}
