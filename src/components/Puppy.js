@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import image from '../assets/img/FrenchiePuppy1.jpg'
+import image from '../assets/img/Stud_Smoke.jpeg'
 import EmailModal from './EmailModal'
 import PuppyVideos from './PuppyVideos/PuppyVideos'
 

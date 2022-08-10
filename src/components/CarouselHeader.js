@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel'
 import image1 from '../assets/img/headerPhoto1.jpeg'
 import image2 from '../assets/img/headerPhoto2.jpeg'
-import image3 from '../assets/img/headerPhoto3.jpeg'
+import image3 from '../assets/img/headerPhoto4.jpeg'
 import NavLogo from '../assets/img/NavLogo1.png'
 
 export default function CarouselHeader() {
@@ -27,7 +27,7 @@ export default function CarouselHeader() {
 
           <Carousel.Caption
             style={{
-              top: '0',
+              // top: '0',
               fontWeight: '700',
               fontSize: '4vw',
               color: '#ffd60a',
