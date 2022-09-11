@@ -11,14 +11,14 @@ import video6 from '../../assets/video/Puppies6.MP4'
 import video7 from '../../assets/video/Puppies7.MP4'
 import video8 from '../../assets/video/Puppies8.MP4'
 
-// import poster1 from '../../assets/img/IMG_8081.jpg'
-// import poster2 from '../../assets/img/IMG_8082.jpg'
-// import poster3 from '../../assets/img/IMG_8083.jpg'
-// import poster4 from '../../assets/img/IMG_8084.jpg'
-// import poster5 from '../../assets/img/upcomingPuppies1.jpg'
-// import poster6 from '../../assets/img/upcomingPuppies1.jpg'
-// import poster7 from '../../assets/img/upcomingPuppies1.jpg'
-// import poster8 from '../../assets/img/upcomingPuppies1.jpg'
+import poster1 from '../../assets/img/IMG_8874.jpg'
+import poster2 from '../../assets/img/IMG_8872.jpg'
+import poster3 from '../../assets/img/IMG_8869.jpg'
+import poster4 from '../../assets/img/IMG_8868.jpg'
+import poster5 from '../../assets/img/IMG_8870.jpg'
+import poster6 from '../../assets/img/IMG_8871.jpg'
+import poster7 from '../../assets/img/IMG_8873.jpg'
+import poster8 from '../../assets/img/IMG_8875.jpg'
 
 const PuppyVideos = () => {
   return (
@@ -32,7 +32,7 @@ const PuppyVideos = () => {
             height='600'
             controls='controls'
             autoPlay={false}
-            // poster={poster5}
+            poster={poster1}
             loop
             muted
           />
@@ -46,7 +46,7 @@ const PuppyVideos = () => {
             height='600'
             controls='controls'
             autoPlay={false}
-            // poster={poster3}
+            poster={poster2}
             loop
             muted
           />
@@ -60,7 +60,7 @@ const PuppyVideos = () => {
             height='600'
             controls='controls'
             autoPlay={false}
-            // poster={poster1}
+            poster={poster3}
             loop
             muted
           />
@@ -74,7 +74,7 @@ const PuppyVideos = () => {
             height='600'
             controls='controls'
             autoPlay={false}
-            // poster={poster2}
+            poster={poster4}
             loop
             muted
           />
@@ -88,7 +88,7 @@ const PuppyVideos = () => {
             height='600'
             controls='controls'
             autoPlay={false}
-            // poster={poster4}
+            poster={poster5}
             loop
             muted
           />
@@ -102,7 +102,7 @@ const PuppyVideos = () => {
             height='600'
             controls='controls'
             autoPlay={false}
-            // poster={poster4}
+            poster={poster6}
             loop
             muted
           />
@@ -116,7 +116,7 @@ const PuppyVideos = () => {
             height='600'
             controls='controls'
             autoPlay={false}
-            // poster={poster4}
+            poster={poster7}
             loop
             muted
           />
@@ -130,7 +130,7 @@ const PuppyVideos = () => {
             height='600'
             controls='controls'
             autoPlay={false}
-            // poster={poster4}
+            poster={poster8}
             loop
             muted
           />
