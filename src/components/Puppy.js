@@ -2,23 +2,23 @@ import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import image from '../assets/img/Stud_Smoke.jpeg'
+import image from '../assets/img/puppy2.jpeg'
+import image2 from '../assets/img/IMG_1995.jpg'
 import EmailModal from './EmailModal'
 import PuppyVideos from './PuppyVideos/PuppyVideos'
 
 export default function Puppy() {
   let puppyData = [
-    // {
-    //   name: 'Acorn',
-    //   sex: 'Male',
-    //   color: 'Blue',
-    //   price: '$6500',
-    // }
+    {
+      name: 'Fluffy Carrier',
+      sex: 'Female',
+      color: 'Lilac x Cream',
+      price: '$4500',
+    }
   ]
 
   return (
     <div>
-      <PuppyVideos/>
       <div className='puppy'>
         <Container className='puppyContainer'>
           <Row>
@@ -43,6 +43,18 @@ export default function Puppy() {
             ))}
           </Row>
         </Container>
+          <PuppyVideos/>
+          <Card
+            bg='dark'
+            key='dark'
+            text='white'
+            className='puppyCard'
+            style={{ width: '15rem' }}>
+            <Card.Img variant='top' src={image2} />
+            <Card.Body>
+              <Card.Title>The Parents</Card.Title>
+            </Card.Body>
+          </Card>
       </div>
     </div>
   )
