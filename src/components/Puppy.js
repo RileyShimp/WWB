@@ -9,12 +9,12 @@ import PuppyVideos from './PuppyVideos/PuppyVideos'
 
 export default function Puppy() {
   let puppyData = [
-    {
-      name: 'Fluffy Carrier',
-      sex: 'Female',
-      color: 'Lilac x Cream',
-      price: '$4500',
-    }
+    // {
+    //   name: 'Fluffy Carrier',
+    //   sex: 'Female',
+    //   color: 'Lilac x Cream',
+    //   price: '$4500',
+    // }
   ]
 
   return (
@@ -43,18 +43,7 @@ export default function Puppy() {
             ))}
           </Row>
         </Container>
-          <PuppyVideos/>
-          <Card
-            bg='dark'
-            key='dark'
-            text='white'
-            className='puppyCard'
-            style={{ width: '15rem' }}>
-            <Card.Img variant='top' src={image2} />
-            <Card.Body>
-              <Card.Title>The Parents</Card.Title>
-            </Card.Body>
-          </Card>
+        <PuppyVideos />
       </div>
     </div>
   )
