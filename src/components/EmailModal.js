@@ -22,7 +22,7 @@ export default function EmailModal() {
           <EmailForm/>
         </Modal.Body>
       </Modal> */}
-      <Button href='tel:+19717070809' variant='primary'>
+      <Button href='sms:+19717070809' variant='primary'>
         Call for Purchase info
       </Button>
     </>
