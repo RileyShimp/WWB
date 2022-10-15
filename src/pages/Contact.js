@@ -26,7 +26,7 @@ export default function Contact() {
         <h1>(971)-707-0809</h1>
         <Button
           style={{ marginBottom: '100px', width: '50vw', maxWidth: '500px' }}
-          href='tel:+1800229933'
+          href='tel:+19717070809'
           variant='primary'>
           Call or Text
         </Button>
