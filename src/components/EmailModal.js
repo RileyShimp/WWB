@@ -1,17 +1,17 @@
-import { Modal } from "react-bootstrap";
-import { useState } from "react";
-import { Button } from "react-bootstrap";
-import EmailForm from "./EmailForm";
+import { Modal } from 'react-bootstrap'
+import { useState } from 'react'
+import { Button } from 'react-bootstrap'
+import EmailForm from './EmailForm'
 
 export default function EmailModal() {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(false)
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false)
+  const handleShow = () => setShow(true)
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
+      {/* <Button variant="primary" onClick={handleShow}>
         Email for Purchase Info
       </Button>
       <Modal show={show} onHide={handleClose}>
@@ -21,7 +21,10 @@ export default function EmailModal() {
         <Modal.Body>
           <EmailForm/>
         </Modal.Body>
-      </Modal>
+      </Modal> */}
+      <Button href='tel:+1800229933' variant='primary'>
+        Call or Text for Purchase info
+      </Button>
     </>
-  );
+  )
 }

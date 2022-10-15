@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&family=Poppins:wght@200;400;700&display=swap');
 
-
 * {
   box-sizing: border-box;
 }
@@ -42,7 +41,7 @@ h1 {
 }
 
 .puppyCard {
-  margin : 0 auto;
+  margin: 0 auto;
   margin-top: 2rem;
 }
 
@@ -55,21 +54,21 @@ h1 {
 }
 
 .EmailForm {
-  margin : 0 auto;
+  margin: 0 auto;
   text-align: center;
 }
 
 .Contact {
   width: 80%;
   max-width: 600px;
-  margin : 0 auto;
+  margin: 0 auto;
   text-align: center;
   padding-bottom: 20px;
 }
 
 .ContactHeader {
   width: 100%;
-  margin : 0 auto;
+  margin: 0 auto;
   text-align: center;
 }
 
